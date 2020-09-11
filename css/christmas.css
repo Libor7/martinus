@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: url(../images/christmas_bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+}
+
+header {
+  background-color: #eb2525;
+  position: relative;
+  padding: 0.5em 0;
+}
+
+div.christmas_nav_panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 75%;
+}
+
+div.christmas_form {
+  background-color: #33ab4e;
+  padding: 1em 2em;
+  width: 40%;
+  margin: 5% auto;
+}
+
+div.christmas_form_wrapper input {
+  margin: 0.5em;
+}
+
+div.christmas_hints {
+  width: 80%;
+  margin: 0 auto;
+}
+
+div.card {
+  display: flex;
+  flex-direction: row;
+}
+
+div.card__content {
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  flex-basis: 33.333333%;
+  max-width: 31%;
+}
+
+div.card__content > h3 {
+  text-align: center;
+}
+
+div.card__content > img {
+  float: left;
+  clear: both;
+  padding: 0 15px 15px 0;
+}
+
+div.card__content > h4 {
+  text-align: center;
+}
+
+div.card__content > p {
+  padding: 1em;
+}
+
+h2.not-found {
+  width: 70%;
+  margin: 2em auto;
+  background-color: #fff;
+  color: #8f8d8a;
+  padding: 2em;
+}

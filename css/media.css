@@ -1,0 +1,62 @@
+@media only screen and (max-width: 1280px) {
+  div.christmas_form {
+    width: 50%;
+    margin: 5% auto;
+  }
+
+  div.christmas_hints {
+    width: 90%;
+  }
+
+  div.card {
+    flex-wrap: wrap;
+  }
+
+  div.card__content {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  div.christmas_form {
+    width: 65%;
+    margin: 5% auto;
+  }
+
+  div.christmas_hints {
+    width: 85%;
+  }
+
+  div.card {
+    flex-direction: column;
+  }
+
+  div.card__content {
+    max-width: 80%;
+    margin: 10px auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  div.christmas_form {
+    width: 80%;
+    margin: 5% auto;
+  }
+
+  div.card__content {
+    max-width: 85%;
+    margin: 10px auto;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  div.christmas_form {
+    width: 90%;
+    margin: 5% auto;
+  }
+
+  div.card__content {
+    max-width: 95%;
+    margin: 10px auto;
+  }
+}
